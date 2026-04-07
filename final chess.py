@@ -514,7 +514,7 @@ class ChessGUI:
         self.root = root
         self.mode = mode  # "ai" ou "player"
 
-        self.root.title("Chess meri et lina")
+        self.root.title("Chess")
         self.root.geometry("700x760")
         self.root.configure(bg=MAGNOLIA)
         self.root.resizable(False, False)
